@@ -1,156 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cherinet | Software Engineer & Data Scientist</title>
-    <meta name="description" content="Personal portfolio of Cherinet, a 3rd-year Software Engineering student specializing in Full-Stack development and Data Science.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Personal portfolio of Cherinet, a Software Engineering student specializing in Full-Stack development and Data Science."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <!-- ANIMATED BACKGROUND -->
+    <div class="animated-bg"></div>
+    
+    <!-- FLOATING PARTICLES -->
+    <div class="particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
     <!-- NAVIGATION -->
     <nav>
-        <div class="logo">CHERINET.</div>
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </div>
+      <div class="logo">Cherinet</div>
+      <div class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
 
     <!-- HERO SECTION -->
     <header id="home" class="hero">
-        <img
-            src="images/profile.jpg"
-            alt="Cherinet"
-            class="profile-img"
-        />
-        <h1>Hi, I'm <span class="primary-gradient">Cherinet</span></h1>
-        <p>I am a <span class="typing-text"></span></p>
-        <a href="#projects" class="contact-btn">View My Work</a>
+      <div class="hero-content">
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Available for Work
+          </div>
+          <h1>
+            Creative<br /><span class="lime">Developer</span><br /><span
+              class="dim"
+              >& Designer</span
+            >
+          </h1>
+          <p class="hero-tagline">I am a <span class="typing-text"></span></p>
+          <p class="hero-description">
+            Software Engineering student passionate about crafting modern,
+            high-performance digital experiences with cutting-edge technologies
+            and clean code architecture.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary shimmer">
+              <span>View My Work</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn-outline neon-border">
+              <i class="fas fa-envelope"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/chera1606" target="_blank" class="hero-social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/cherinet-derbie-4b1206377" target="_blank" class="hero-social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://t.me/Alula1623" target="_blank" class="hero-social-link"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-glow"></div>
+            <img src="./images/photo_2026-04-30_23-38-27.jpg" alt="Cherinet" class="hero-image" />
+            <div class="hero-image-border"></div>
+            <div class="floating-card card-1">
+              <i class="fas fa-code"></i>
+              <span>Student Dev</span>
+            </div>
+            <div class="floating-card card-2">
+              <i class="fas fa-rocket"></i>
+              <span>7+ Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- ABOUT SECTION -->
     <section id="about" class="about reveal">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <p>
-                I am a 3rd-year Software Engineering student at Adama Science and
-                Technology University. I am passionate about building modern and
-                efficient software solutions.
-            </p>
-            <p>
-                I specialize in <strong>full-stack web development</strong>, working with both front-end
-                and back-end technologies to create complete web applications.
-            </p>
-            <p>
-                I also work in <strong>data science</strong>, focusing on data analysis, visualization,
-                and extracting insights to solve real-world problems.
-            </p>
-            <p>
-                I enjoy building real projects and continuously improving my skills as a
-                developer.
-            </p>
+      <div class="section-header">
+        <h2 class="wave">About <span class="glow-text">me</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">
+          Passionate about creating impactful solutions
+        </p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a 3rd-year Software Engineering student at Adama Science and
+            Technology University with
+            <strong>hands-on experience</strong> in software
+            development. I specialize in building modern web applications,
+            e-commerce platforms, and data-driven solutions.
+          </p>
+          <p>
+            My journey in tech started with a curiosity about how things work,
+            which evolved into a passion for creating innovative solutions that
+            make a difference. I believe in writing clean, maintainable code and
+            creating user experiences that are both beautiful and functional.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies,
+            contributing to open-source projects, or sharing knowledge with the
+            developer community.
+          </p>
         </div>
+        <div class="about-stats">
+          <div class="stat-card neon-border">
+            <span class="stat-number">7+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-card neon-border">
+            <span class="stat-number">3rd</span>
+            <span class="stat-label">Year Student</span>
+          </div>
+          <div class="stat-card neon-border">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-card neon-border">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Tech Stack</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- SKILLS SECTION -->
     <section id="skills" class="skills reveal">
-        <h2>Skills & Expertise</h2>
-        <div class="skill-list">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>React.js</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>MongoDB</span>
-            <span>Python</span>
-            <span>Data Analysis</span>
-            <span>Machine Learning</span>
+      <div class="section-header">
+        <h2 class="wave">Skills &amp; <span class="glow-text">expertise</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+      <div class="skills-categories">
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Languages</h3>
+          <div class="skill-list">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">C++</span>
+            <span class="skill-badge">JavaScript</span>
+          </div>
         </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-code"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-list">
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3</span>
+            <span class="skill-badge">Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend</h3>
+          <div class="skill-list">
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Express.js</span>
+            <span class="skill-badge">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-database"></i></div>
+          <h3>Database</h3>
+          <div class="skill-list">
+            <span class="skill-badge">MongoDB</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">SQLite</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-brain"></i></div>
+          <h3>Data Science</h3>
+          <div class="skill-list">
+            <span class="skill-badge">Pandas</span>
+            <span class="skill-badge">NumPy</span>
+            <span class="skill-badge">Machine Learning</span>
+            <span class="skill-badge">Data Visualization</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools</h3>
+          <div class="skill-list">
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">GitHub</span>
+            <span class="skill-badge">VS Code</span>
+            <span class="skill-badge">Docker</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- PROJECTS SECTION -->
     <section id="projects" class="projects reveal">
-        <h2>Featured Projects</h2>
-        <div class="project-grid">
-            <!-- Project 1 -->
-            <div class="card">
-                <div class="project-img">
-                    <img src="images/complaint_system.jpg" alt="ASTU Smart Complaint System">
-                </div>
-                <div class="card-info">
-                    <h3>ASTU Smart Complaint System</h3>
-                    <p>A full-stack application designed to streamline student complaints and feedback at Adama Science and Technology University.</p>
-                    <a href="https://github.com/chera1606/astu-smart-complaint-system" target="_blank" class="project-link">View Repo</a>
-                </div>
+      <div class="section-header">
+        <h2 class="wave">Featured <span class="glow-text">projects</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Some of my recent work</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 - Efoy Gabeya -->
+        <div class="project-card featured">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-shopping-cart"></i>
             </div>
-            <!-- Project 2 -->
-            <div class="card">
-                <div class="project-img">
-                    <img src="images/rag_ai.jpg" alt="RAG AI Landing Chatbot">
-                </div>
-                <div class="card-info">
-                    <h3>RAG AI Landing Chatbot</h3>
-                    <p>A sophisticated AI chatbot using Retrieval-Augmented Generation (RAG) to provide contextual answers on landing pages.</p>
-                    <a href="https://github.com/chera1606/RAG-ai-landing-chatbot" target="_blank" class="project-link">View Repo</a>
-                </div>
+            <span class="project-live-badge">LIVE</span>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
             </div>
-            <!-- Project 3 -->
-            <div class="card">
-                <div class="project-img">
-                    <img src="images/quiz_app.jpg" alt="Quiz App">
-                </div>
-                <div class="card-info">
-                    <h3>Interactive Quiz App</h3>
-                    <p>A dynamic and engaging quiz platform with real-time scoring and diverse categories.</p>
-                    <a href="https://github.com/chera1606/Quiz-app" target="_blank" class="project-link">View Repo</a>
-                </div>
+            <h3>Efoy Gabeya - E-commerce Platform</h3>
+            <p>
+              A full-featured e-commerce platform for Ethiopian traditional
+              clothing with payment integration, admin dashboard, and order
+              management system.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chera1606/ecommerce-frontend-"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+              <a
+                href="https://ecommerce-frontend-8bfbp6lut-cherinets-projects-8baa279c.vercel.app"
+                target="_blank"
+                class="project-link live"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
             </div>
-            <!-- Project 4 -->
-            <div class="card">
-                <div class="project-img">
-                    <img src="images/java_chat.jpg" alt="Chat App Socket Java">
-                </div>
-                <div class="card-info">
-                    <h3>Real-Time Java Chat App</h3>
-                    <p>A low-level socket-based chat application implemented in Java for real-time communication.</p>
-                    <a href="https://github.com/chera1606/chat-app-socket-java" target="_blank" class="project-link">View Repo</a>
-                </div>
-            </div>
-            <!-- Project 5 -->
-            <div class="card">
-                <div class="project-img">
-                    <img src="images/ecommerce_backend.jpg" alt="E-commerce Backend">
-                </div>
-                <div class="card-info">
-                    <h3>E-commerce Backend</h3>
-                    <p>A robust and scalable backend infrastructure for modern e-commerce applications, featuring secure payments and inventory management.</p>
-                    <a href="https://github.com/chera1606/ecommerce-backend" target="_blank" class="project-link">View Repo</a>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <!-- Project 2 - RAG AI -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-comments"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">LangChain</span>
+              <span class="project-tag">OpenAI</span>
+            </div>
+            <h3>RAG AI Chatbot</h3>
+            <p>
+              An intelligent chatbot using Retrieval-Augmented Generation for
+              accurate, context-aware responses from custom knowledge bases.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chera1606/"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 - Quiz App -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-question-circle"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">HTML/CSS</span>
+              <span class="project-tag">LocalStorage</span>
+            </div>
+            <h3>Interactive Quiz App</h3>
+            <p>
+              A dynamic quiz application with multiple categories, scoring
+              system, and progress tracking using local storage.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chera1606/"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 - Library Management System -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-book"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Django</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">SQLite</span>
+            </div>
+            <h3>Library Management System</h3>
+            <p>
+              A comprehensive library management system with book cataloging,
+              user management, borrowing tracking, and fine calculation.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chera1606/library-management-system"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 - ASTU Smart Complaint System -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-comment-alt"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+            <h3>ASTU Smart Complaint System</h3>
+            <p>
+              A digital complaint management system for Adama Science and Technology
+              University allowing students to submit and track complaints efficiently.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chera1606/astu-smart-complaint-system"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 - Chat App with Java Sockets -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-comments"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Socket.io</span>
+              <span class="project-tag">Swing</span>
+            </div>
+            <h3>Real-time Chat Application</h3>
+            <p>
+              A desktop chat application using Java sockets for real-time messaging
+              with multi-user support and modern UI built with Java Swing.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/chera1606/chat-app-socket-java"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fab fa-github"></i> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="experience reveal">
+      <div class="section-header">
+        <h2 class="wave">Experience &amp; <span class="glow-text">education</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">My journey so far</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 - Present</span>
+            <h3>Bachelor of Software Engineering</h3>
+            <p class="timeline-company">
+              Adama Science and Technology University
+            </p>
+            <p>
+              Currently in 3rd year, focusing on software development, data
+              structures, algorithms, and database management systems.
+              Maintaining strong academic performance while working on real-world
+              projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2022 - 2023</span>
+            <h3>Started Coding Journey</h3>
+            <p class="timeline-company">Self-Learning</p>
+            <p>
+              Began learning programming with Python and web technologies.
+              Completed numerous online courses and built foundational projects
+              that sparked my passion for software development.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Open Source</span>
+            <h3>Active Contributor</h3>
+            <p class="timeline-company">GitHub Community</p>
+            <p>
+              Contributing to open-source projects, sharing knowledge through
+              repositories, and collaborating with developers worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- CONTACT SECTION -->
     <section id="contact" class="contact reveal">
-        <div class="contact-container">
-            <h2>Let's Work Together</h2>
-            <p>Have a project in mind or just want to say hi? My inbox is always open.</p>
-            <a href="mailto:cherinetderbie@gmail.com" class="contact-btn">Send an Email</a>
-            <p style="margin-top: 20px; color: #94a3b8;">cherinetderbie@gmail.com</p>
+      <div class="section-header">
+        <h2 class="wave">Get in <span class="glow-text">touch</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Let's work together</p>
+      </div>
+      <div class="contact-container">
+        <p class="contact-intro">
+          Have a project in mind or just want to say hi? I'm always open to
+          discussing new opportunities and ideas.
+        </p>
+        <form
+          class="contact-form"
+          action="mailto:cherinetderbie@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your@email.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+        <div class="contact-social">
+          <a href="https://github.com/chera1606" target="_blank" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/cherinet-derbie-4b1206377" target="_blank" class="social-link">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://t.me/Alula1623" target="_blank" class="social-link">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="mailto:cherinetderbie@gmail.com" class="social-link">
+            <i class="fas fa-envelope"></i>
+          </a>
         </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Cherinet Derbie. All rights reserved.</p>
-        <p>Built with Passion & Code.</p>
+      <div class="footer-content">
+        <div class="footer-logo">Cherinet</div>
+        <p>&copy; 2026 Cherinet. All rights reserved.</p>
+        <p class="footer-tagline">Crafted with passion & clean code</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
